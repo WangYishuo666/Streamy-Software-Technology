@@ -1,6 +1,6 @@
----
-title: Streamy Iterative SDLC Blueprint
----
+# Streamy Iterative SDLC Blueprint
+
+```mermaid
 flowchart TD
     subgraph SpecPhase [1. Requirements Specification Block]
         A[Inception Abstract Created] --> B[SRS Requirements Compiling]
@@ -15,7 +15,7 @@ flowchart TD
     end
     subgraph ProductionPhase [4. Python Construction Layer]
         E -- Yes: Pass Gate --> F[Compile Python Class Skeletons]
-        F --> G[Implement Internal Class Logic]
+        F --> G[Implement Internal Business Logic]
     end
     classDef decisionStyle fill:#f9f,stroke:#333,stroke-width:2px
     class E decisionStyle
