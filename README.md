@@ -1,7 +1,7 @@
 # Streamy Video Streaming Backend Platform
 ## Software Technology Course Laboratory 1
-* **Student Identity:** [Enter Your Name Here]
-* **Neptun System Code:** [Enter Your Neptun Code Here]
+* **Student Identity:** [WangYishuo]
+* **Neptun System Code:** [BZTPMA]
 * **Course Section Reference:** GEIAL314-B2a
 ---
 ## Iterative SDLC Blueprint
