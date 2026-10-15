@@ -1,4 +1,12 @@
-# Streamy Iterative SDLC Blueprint
+# Streamy Video Streaming Backend Platform
+## Software Technology Course Laboratory 1
+* **Student Identity:** [Enter Your Name Here]
+* **Neptun System Code:** [Enter Your Neptun Code Here]
+* **Course Section Reference:** GEIAL314-B2a
+---
+## Iterative SDLC Blueprint
+The diagram below presents the iterative SDLC workflow for Streamy video streaming backend platform.
+It demonstrates the four-phase iterative workflow: requirements specification, UML architectural modeling, validation gate check, and Python implementation.
 
 ```mermaid
 flowchart TD
