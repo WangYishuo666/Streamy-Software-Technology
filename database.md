@@ -1,5 +1,4 @@
 erDiagram
-    title: Streamy Relational Data Schema Layout
     TITLES {
         int title_id PK
         string name
@@ -31,8 +30,8 @@ erDiagram
         int genre_id FK
     }
 
-    TITLES ||--o{ SEASONS : hosts
-    SEASONS ||--|{ EPISODES : hosts
-    TITLES ||--o{ REVIEWS : collects
-    TITLES ||--o{ TITLE_GENRES : categorizes
-    GENRES ||--o{ TITLE_GENRES : classifies
+    TITLES one-to-many SEASONS : hosts
+    SEASONS one-to-many EPISODES : hosts
+    TITLES one-to-many REVIEWS : collects
+    TITLES one-to-many TITLE_GENRES : categorizes
+    GENRES one-to-many TITLE_GENRES : classifies
